@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Student Support</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="font-['Inter'] bg-gray-50 text-gray-800">
+
+    <!-- Header Section (University Landing Page) -->
+    <header class="relative bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-600 text-white overflow-hidden">
+        <div class="absolute inset-0">
+            <div class="absolute w-72 h-72 bg-pink-400 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse top-10 left-20"></div>
+            <div class="absolute w-96 h-96 bg-indigo-400 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-ping bottom-10 right-20"></div>
+        </div>
+        <div class="relative container mx-auto px-6 py-20 flex flex-col md:flex-row justify-between items-center">
+            <div class="text-center md:text-left space-y-6">
+                <h1 class="text-5xl md:text-6xl font-extrabold animate-fadeInUp">
+                    University of Excellence
+                </h1>
+                <p class="text-lg md:text-xl text-gray-200 max-w-lg animate-fadeInUp delay-200">
+                    Unlock your future with top-tier education, world-class faculty, and limitless opportunities.
+                </p>
+                <div class="mt-6 flex justify-center md:justify-start space-x-4 animate-fadeInUp delay-300">
+                    <a href="#admissions" class="px-6 py-3 bg-white text-indigo-700 font-semibold rounded-full shadow-lg hover:bg-gray-200 transition transform hover:scale-105">Admissions</a>
+                    <a href="#contact" class="px-6 py-3 bg-indigo-900 text-white font-semibold rounded-full shadow-lg hover:bg-indigo-800 transition transform hover:scale-105">Contact Us</a>
+                </div>
+            </div>
+            <div class="mt-10 md:mt-0 animate-float">
+                <img src="https://placehold.co/500x350/1f2937/d1d5db?text=Campus+Life" alt="Campus" class="rounded-2xl shadow-2xl hover:scale-105 transition duration-500">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-20 space-y-20">
+        <!-- About Us -->
+        <section id="about" class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="animate-fadeInUp">
+                <h2 class="text-4xl font-bold text-indigo-700 mb-6">About Us</h2>
+                <p class="text-gray-700 leading-relaxed text-lg">
+                    Founded on principles of innovation and inclusivity, our university is a hub for groundbreaking research and collaborative learning. 
+                    We foster a diverse community where every student can thrive.
+                </p>
+            </div>
+            <div class="grid grid-cols-2 gap-4 animate-fadeInUp delay-200">
+                <img src="https://media.istockphoto.com/id/1346675635/photo/modern-medical-research-laboratory-portrait-of-latin-and-black-young-scientists-using.jpg?s=612x612&w=0&k=20&c=9PiRizOrO04C6TSyMhqv7NUDabjhbrrnL3LVLuArGJU=" class="rounded-lg shadow-lg hover:scale-105 transition duration-500" alt="Campus 1">
+                <img src="https://media.istockphoto.com/id/1455935808/photo/technical-college-students-exchanging-ideas.jpg?s=612x612&w=0&k=20&c=dBX_083kTILhRsHblEf89cpabyz7cuXA-UYLLPyxvP0=" class="rounded-lg shadow-lg hover:scale-105 transition duration-500" alt="Campus 2">
+                <img src="https://images.squarespace-cdn.com/content/v1/557e5b0be4b05efa911bf5e7/1442969230280-SCY47771SIG5RMWLYMUF/olinlibsmall.jpg?format=1500w" class="rounded-lg shadow-lg hover:scale-105 transition duration-500" alt="Campus 3">
+                <img src="https://www.mchenry.edu/aboutmcc/images/earth-science-class2.jpg" class="rounded-lg shadow-lg hover:scale-105 transition duration-500" alt="Campus 4">
+            </div>
+        </section>
+
+        <!-- Admissions -->
+        <section id="admissions" class="text-center space-y-8 animate-fadeInUp">
+            <h2 class="text-4xl font-bold text-indigo-700">Admissions</h2>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+                Ready to start your journey? Our admissions team guides you through every step — from application to enrollment.
+            </p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-lg border hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <i class="fas fa-file-alt text-3xl text-indigo-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Application</h3>
+                    <p class="text-gray-600">Submit your application with academic records and supporting documents online.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <i class="fas fa-user-friends text-3xl text-indigo-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Review</h3>
+                    <p class="text-gray-600">Our team evaluates holistically, considering achievements, activities, and potential.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <i class="fas fa-graduation-cap text-3xl text-indigo-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Enrollment</h3>
+                    <p class="text-gray-600">Accepted students join our vibrant campus with orientation and welcome events.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="text-center space-y-8 animate-fadeInUp">
+            <h2 class="text-4xl font-bold text-indigo-700">Contact Us</h2>
+            <p class="text-lg text-gray-700">Have questions? We're here to help. Reach out via email, phone, or chat with our AI assistant.</p>
+            <div class="flex justify-center">
+                <button id="chatbot-toggle" class="py-4 px-8 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold rounded-full shadow-lg hover:scale-110 transition transform">
+                    <i class="fas fa-comment-dots mr-2"></i> Student Support
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- CSS for animations and UI -->
+    <style>
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fadeInUp { animation: fadeInUp 0.8s ease-out both; }
+        .delay-200 { animation-delay: 0.2s; }
+        .delay-300 { animation-delay: 0.3s; }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .animate-float { animation: float 4s ease-in-out infinite; }
+
+        /* Chatbot specific styles */
+        .chat-modal-overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 60;
+            display: none;
+            backdrop-filter: blur(8px);
+            background-color: rgba(0, 0, 0, 0.4);
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s ease-in-out both;
+        }
+        .chat-modal-overlay.open { display: flex; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .chat-message-bubble {
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+            transition: all 0.2s ease-in-out;
+        }
+        .chat-message-bubble.user {
+            background-color: #e0e7ff; /* Indigo-100 */
+            color: #1e40af; /* Indigo-800 */
+            border-bottom-right-radius: 4px;
+        }
+        .chat-message-bubble.bot {
+            background-color: #f3f4f6; /* Gray-100 */
+            color: #374151; /* Gray-700 */
+            border-bottom-left-radius: 4px;
+        }
+
+        /* Scrollbar styles for modern browsers */
+        .thin-scroll::-webkit-scrollbar {
+            width: 8px;
+        }
+        .thin-scroll::-webkit-scrollbar-track {
+            background: #f1f5f9; /* Slate-100 */
+        }
+        .thin-scroll::-webkit-scrollbar-thumb {
+            background: #cbd5e1; /* Slate-300 */
+            border-radius: 4px;
+        }
+        .thin-scroll::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8; /* Slate-400 */
+        }
+        @keyframes pulse-typing {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .loader > span {
+            animation: pulse-typing 1.2s cubic-bezier(0, 0, 0.2, 2) infinite;
+            animation-delay: calc(0.15s * var(--i));
+        }
+    </style>
+
+
+    <!-- Chatbot Modal -->
+    <div id="chat-modal" class="chat-modal-overlay">
+        <div class="w-full max-w-4xl h-[80vh] rounded-2xl bg-white shadow-2xl overflow-hidden flex flex-col md:flex-row">
+            <!-- Sidebar (Desktop View) -->
+            <aside class="hidden md:flex md:w-1/4 bg-slate-900 text-white p-4 flex-col">
+                <div class="flex items-center justify-between gap-2 mb-4">
+                    <button id="ui-new-chat" class="flex items-center gap-2 bg-slate-700 hover:bg-slate-600 px-3 py-2 rounded-md transition transform hover:scale-105">
+                        <i class="fas fa-plus"></i><span class="text-sm font-medium">New Chat</span>
+                    </button>
+                    <button id="ui-close" aria-label="Close chat" class="text-slate-300 hover:text-white transition transform hover:rotate-90">
+                        <i class="fas fa-times text-xl"></i>
+                    </button>
+                </div>
+                <div id="ui-chat-list" class="flex-1 overflow-auto thin-scroll space-y-2">
+                    <!-- Chat items injected here -->
+                </div>
+                <div class="mt-4 border-t border-slate-800 pt-4">
+                    <div class="flex items-center gap-3">
+                        <div id="ui-avatar" class="w-10 h-10 rounded-full bg-indigo-600 flex items-center justify-center font-semibold text-white">
+                            <i class="fas fa-user-circle text-2xl"></i>
+                        </div>
+                        <div>
+                            <div id="ui-user-name" class="font-semibold text-sm">Guest</div>
+                            <div class="text-xs text-slate-400">Not signed in</div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Chat Window -->
+            <main class="flex-1 flex flex-col">
+                <!-- Header -->
+                <header class="flex items-center justify-between px-6 py-3 border-b bg-white">
+                    <div class="flex items-center gap-3">
+                        <i class="fas fa-robot text-indigo-600 text-lg"></i>
+                        <h2 class="text-lg font-semibold">Student Support Chatbot</h2>
+                    </div>
+                    <button id="ui-close-mobile" class="md:hidden text-slate-500 hover:text-slate-700 transition transform hover:scale-110">
+                        <i class="fas fa-times text-lg"></i>
+                    </button>
+                </header>
+
+                <!-- Messages Container -->
+                <div id="ui-messages" class="flex-1 overflow-y-auto p-6 space-y-4 thin-scroll bg-slate-50">
+                    <!-- Messages will be rendered here -->
+                </div>
+
+                <!-- Input Area -->
+                <div class="px-6 py-4 border-t bg-white flex items-center gap-3">
+                    <textarea id="ui-input" rows="1" placeholder="Type your message..." class="flex-1 resize-none rounded-2xl border border-slate-200 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 transition-shadow"></textarea>
+                    <button id="ui-send" class="bg-indigo-600 hover:bg-indigo-700 text-white w-10 h-10 flex items-center justify-center rounded-full shadow-lg transition transform hover:scale-110">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script type="module">
+        // DOM references
+        const chatbotToggleBtn = document.getElementById('chatbot-toggle');
+        const chatModal = document.getElementById('chat-modal');
+        const chatListEl = document.getElementById('ui-chat-list');
+        const messagesEl = document.getElementById('ui-messages');
+        const inputEl = document.getElementById('ui-input');
+        const sendBtn = document.getElementById('ui-send');
+        const newChatBtn = document.getElementById('ui-new-chat');
+        const closeBtn = document.getElementById('ui-close');
+        const closeMobileBtn = document.getElementById('ui-close-mobile');
+        const avatarEl = document.getElementById('ui-avatar');
+        const userNameEl = document.getElementById('ui-user-name');
+
+ // ---------- FIREBASE (modular v11) imports ----------
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+    import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+    import {
+      getFirestore, doc, getDoc, collection, addDoc, onSnapshot, query, getDocs, updateDoc,
+      arrayUnion, orderBy, limit, setLogLevel
+    } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+
+    // ---------- CONFIG ----------
+    // If you don't have server-side injection, paste a test firebaseConfig here for local dev ONLY:
+    // IMPORTANT: remove these values and use server-side injection or env vars before production.
+    const firebaseConfig = (typeof __firebase_config !== 'undefined' && __firebase_config)
+      ? JSON.parse(__firebase_config)
+      : {
+          // <-- Replace with your test config for local dev ONLY (do NOT commit keys)
+        apiKey: "AIzaSyDs_T9b1oEdzpr8Z5MZR34lGBQJcr1lDmw",
+        authDomain: "chatbot-bc4eb.firebaseapp.com",
+        projectId: "chatbot-bc4eb",
+        storageBucket: "chatbot-bc4eb.firebasestorage.app",
+        messagingSenderId: "980821181543",
+        appId: "1:980821181543:web:ab6c4898fb5965747980c2"
+          // databaseURL not required for Firestore, but included if you use RTDB elsewhere:
+          // databaseURL: "https://your-project.firebaseio.com"
+        };
+
+    const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+    const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
+
+        // State
+        let app, db, auth, userId;
+        let currentChatSessionId = null;
+        let isAuthReady = false;
+        let isBotTyping = false;
+        let unsubscribeFromChat = null;
+        let isFirebaseInitialized = false;
+        const knowledgeBase = [];
+
+        // UI helpers
+        const setUIReady = (ready) => {
+            inputEl.disabled = !ready || isBotTyping;
+            sendBtn.disabled = !ready || isBotTyping;
+            newChatBtn.disabled = !ready;
+            inputEl.placeholder = ready ? "Type your message..." : "Connecting to chat...";
+        };
+        setUIReady(false);
+
+        const showFirebaseConnectionError = () => {
+            messagesEl.innerHTML = '';
+            const errorDiv = document.createElement('div');
+            errorDiv.classList.add('p-4', 'bg-red-100', 'text-red-800', 'rounded-lg', 'text-sm');
+            errorDiv.textContent = "We're sorry, but the chat service is currently unavailable. Please ensure Firebase is configured correctly and try again later.";
+            messagesEl.appendChild(errorDiv);
+            setUIReady(false);
+        };
+
+        const renderMessage = (msg) => {
+            const isUser = msg.role === 'user';
+            const messageWrapper = document.createElement('div');
+            messageWrapper.classList.add('flex', 'items-start', 'gap-3', 'transition-transform', 'duration-300', 'ease-out');
+            messageWrapper.classList.add(isUser ? 'justify-end' : 'justify-start');
+
+            const avatarHtml = `
+                <div class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white ${isUser ? 'bg-indigo-600' : 'bg-slate-700'}">
+                    <i class="fas ${isUser ? 'fa-user' : 'fa-robot'}"></i>
+                </div>`;
+
+            const messageBubble = document.createElement('div');
+            messageBubble.classList.add('max-w-md', 'p-4', 'rounded-xl', 'shadow-sm', 'chat-message-bubble');
+            messageBubble.classList.add(isUser ? 'user' : 'bot');
+            messageBubble.textContent = msg.text;
+
+            if (isUser) {
+                messageWrapper.appendChild(messageBubble);
+                messageWrapper.innerHTML += avatarHtml;
+            } else {
+                messageWrapper.innerHTML = avatarHtml;
+                messageWrapper.appendChild(messageBubble);
+            }
+
+            messagesEl.appendChild(messageWrapper);
+        };
+
+        const renderTypingIndicator = () => {
+            const typingIndicator = document.createElement('div');
+            typingIndicator.id = 'typing-indicator';
+            typingIndicator.classList.add('flex', 'items-center', 'gap-2', 'text-slate-400', 'p-4');
+            typingIndicator.innerHTML = `
+                <div class="flex-shrink-0 w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center text-white text-sm"><i class="fas fa-robot"></i></div>
+                <div class="flex items-center space-x-1">
+                    <span class="loader text-sm font-light text-slate-500">Typing<span class="dot" style="--i:0;">.</span><span class="dot" style="--i:1;">.</span><span class="dot" style="--i:2;">.</span></span>
+                </div>
+            `;
+            messagesEl.appendChild(typingIndicator);
+            messagesEl.scrollTop = messagesEl.scrollHeight;
+        };
+
+        const removeTypingIndicator = () => {
+            const indicator = document.getElementById('typing-indicator');
+            if (indicator) {
+                indicator.remove();
+            }
+        };
+
+        // Init Firebase & Auth
+        const initFirebase = async () => {
+            try {
+                if (!firebaseConfig || !firebaseConfig.projectId) {
+                    console.error("Firebase config not provided or incomplete.");
+                    showFirebaseConnectionError();
+                    return;
+                }
+                app = initializeApp(firebaseConfig);
+                auth = getAuth(app);
+                db = getFirestore(app);
+                setLogLevel('debug');
+                isFirebaseInitialized = true;
+
+                onAuthStateChanged(auth, async (user) => {
+                    if (user) {
+                        userId = user.uid;
+                        isAuthReady = true;
+                        console.log("Auth ready, uid:", userId);
+                        await loadKnowledgeBase();
+                        await loadOrCreateChatSession();
+                    } else {
+                        if (initialAuthToken) {
+                            try { await signInWithCustomToken(auth, initialAuthToken); }
+                            catch (e) { console.warn("Custom token failed:", e); await signInAnonymously(auth); }
+                        } else {
+                            await signInAnonymously(auth);
+                        }
+                    }
+                });
+            } catch (err) {
+                console.error("Error initializing Firebase:", err);
+                showFirebaseConnectionError();
+            }
+        };
+
+        // Knowledge (RAG)
+        const addSampleKnowledge = async () => {
+            if (!db) return;
+            const knowledgeRef = collection(db, 'artifacts', appId, 'public', 'data', 'college_info');
+            try {
+                const existing = await getDocs(knowledgeRef);
+                if (existing.empty) {
+                    const docs = [
+                        { title: "Scholarship Information", content: "The university offers merit-based, need-based, and athletic scholarships. The deadline for Fall semester is March 15th. More details are on the financial aid page.", keywords: ["scholarship","financial aid","merit","need-based","athletic","deadline"], lang:["English"] },
+                        { title: "Admissions Process", content: "Online application, high school transcripts, two letters of recommendation, and a personal essay. The deadline for Fall 2025 is January 1st.", keywords: ["admission","apply","application","deadline","transcript"], lang:["English"] },
+                        { title: "Exam Timetable", content: "Final exam timetables are on the student portal one month before exams. Spring 2025 exams are from May 5th to May 10th.", keywords: ["exam","timetable","schedule","final","dates"], lang:["English"] },
+                        { title: "FAQs", content: "Common questions cover campus tours, student housing, course registration, and student clubs. Our FAQ section on the website has detailed answers.", keywords:["faq","housing","registration","clubs"], lang:["English"] }
+                    ];
+                    for (const d of docs) await addDoc(knowledgeRef, d);
+                    console.log("Added sample knowledge data (Firestore).");
+                } else {
+                    console.log("Knowledge collection already has documents.");
+                }
+            } catch (err) {
+                console.error("Failed to add sample knowledge:", err);
+            }
+        };
+
+        const loadKnowledgeBase = async () => {
+            if (knowledgeBase.length > 0) return;
+            if (!db) return;
+            await addSampleKnowledge();
+            try {
+                const knowledgeRef = collection(db, 'artifacts', appId, 'public', 'data', 'college_info');
+                const snapshot = await getDocs(knowledgeRef);
+                snapshot.forEach(d => knowledgeBase.push(d.data()));
+                console.log("Knowledge loaded:", knowledgeBase.length, "items");
+            } catch (err) {
+                console.error("Error loading knowledge base:", err);
+            }
+        };
+
+        // Chat session helpers
+        const listenToChat = (sessionId) => {
+            if (unsubscribeFromChat) unsubscribeFromChat();
+            currentChatSessionId = sessionId;
+            const sessionDocRef = doc(db, 'artifacts', appId, 'users', userId, 'chat_history', sessionId);
+
+            unsubscribeFromChat = onSnapshot(sessionDocRef, (docSnap) => {
+                if (docSnap.exists()) {
+                    const data = docSnap.data();
+                    renderMessages(data.messages || []);
+                    // Now enable UI: we have a session loaded
+                    setUIReady(true);
+                } else {
+                    console.warn("Session doc does not exist when listening:", sessionId);
+                    setUIReady(false);
+                }
+            }, (err) => {
+                console.error("onSnapshot error:", err);
+            });
+        };
+
+        const loadOrCreateChatSession = async () => {
+            if (!isAuthReady || !db || !userId) return;
+            const chatRef = collection(db, 'artifacts', appId, 'users', userId, 'chat_history');
+            try {
+                const q = query(chatRef, orderBy("updatedAt", "desc"), limit(1));
+                const querySnapshot = await getDocs(q);
+                if (!querySnapshot.empty) {
+                    const latestDoc = querySnapshot.docs[0];
+                    listenToChat(latestDoc.id);
+                } else {
+                    await startNewChat();
+                }
+            } catch (err) {
+                console.error("loadOrCreateChatSession error:", err);
+                await startNewChat();
+            }
+        };
+
+        const startNewChat = async () => {
+            if (!isAuthReady || !db || !userId) return null;
+            setUIReady(false);
+            const chatRef = collection(db, 'artifacts', appId, 'users', userId, 'chat_history');
+            try {
+                const now = new Date();
+                const initialBotMessage = { role: 'bot', text: "Hello! I'm your AI student support assistant. How can I help you today?" };
+                const newDocRef = await addDoc(chatRef, {
+                    createdAt: now,
+                    updatedAt: now,
+                    chatName: "New Chat",
+                    messages: [initialBotMessage]
+                });
+                listenToChat(newDocRef.id);
+                return newDocRef.id;
+            } catch (err) {
+                console.error("startNewChat failed:", err);
+                showFirebaseConnectionError();
+                return null;
+            }
+        };
+
+        // save a message to the session doc using update + arrayUnion
+        const saveMessage = async (sessionId, role, text, otherUpdates = {}) => {
+            if (!isAuthReady || !db || !userId || !sessionId) return;
+            const chatDocRef = doc(db, 'artifacts', appId, 'users', userId, 'chat_history', sessionId);
+            try {
+                await updateDoc(chatDocRef, {
+                    messages: arrayUnion({ role, text, createdAt: new Date() }),
+                    updatedAt: new Date(),
+                    ...otherUpdates
+                });
+            } catch (err) {
+                console.error("saveMessage error:", err);
+            }
+        };
+
+        const renderMessages = (messages) => {
+            messagesEl.innerHTML = '';
+            messages.forEach(msg => {
+                renderMessage(msg);
+            });
+            messagesEl.scrollTop = messagesEl.scrollHeight;
+        };
+
+        // Improved RAG
+        const answerUsingKnowledgeBase = (userMessage) => {
+            const query = userMessage.toLowerCase();
+            const tokens = query.match(/\b[\w-]+\b/g) || [];
+            let bestDoc = null;
+            let bestScore = 0;
+
+            knowledgeBase.forEach(item => {
+                const text = (item.title + " " + item.content + " " + (item.keywords || []).join(" ")).toLowerCase();
+                let score = 0;
+                (item.keywords || []).forEach(kw => {
+                    if (query.includes(kw.toLowerCase())) score += 3;
+                    if (tokens.includes(kw.toLowerCase())) score += 2;
+                });
+                tokens.forEach(t => { if (text.includes(t)) score += 1; });
+
+                if (score > bestScore) {
+                    bestScore = score;
+                    bestDoc = item;
+                }
+            });
+
+            if (bestDoc && bestScore > 0) {
+                return `${bestDoc.title}: ${bestDoc.content}`;
+            }
+
+            return "I couldn’t find this info in the college records. Do you want me to connect you with staff?";
+        };
+
+        // Main send logic
+        const sendMessage = async () => {
+            if (isBotTyping) return;
+            if (!isFirebaseInitialized) {
+                console.warn("Firebase not initialized");
+                showFirebaseConnectionError();
+                return;
+            }
+            if (!isAuthReady) {
+                console.warn("Auth not ready");
+                return;
+            }
+
+            let userMessage = inputEl.value.trim();
+            if (!userMessage) return;
+
+            if (!currentChatSessionId) {
+                await startNewChat();
+                const waitForSession = (ms) => new Promise(res => setTimeout(res, ms));
+                await waitForSession(600);
+                if (!currentChatSessionId) {
+                    console.error("Session still not ready after startNewChat.");
+                    return;
+                }
+            }
+
+            inputEl.value = '';
+            isBotTyping = true;
+            setUIReady(false);
+
+            renderTypingIndicator();
+            await saveMessage(currentChatSessionId, 'user', userMessage);
+
+            try {
+                const botMessage = answerUsingKnowledgeBase(userMessage);
+                await saveMessage(currentChatSessionId, 'bot', botMessage);
+
+            } catch (err) {
+                console.error("Error generating reply:", err);
+                await saveMessage(currentChatSessionId, 'bot', "Sorry, I am having trouble connecting. Please try again later.");
+            } finally {
+                removeTypingIndicator();
+                isBotTyping = false;
+                setUIReady(true);
+            }
+        };
+
+        // UI events
+        document.addEventListener('DOMContentLoaded', initFirebase);
+        chatbotToggleBtn.addEventListener('click', () => chatModal.classList.add('open'));
+        closeBtn.addEventListener('click', () => chatModal.classList.remove('open'));
+        closeMobileBtn.addEventListener('click', () => chatModal.classList.remove('open'));
+        newChatBtn.addEventListener('click', startNewChat);
+        sendBtn.addEventListener('click', sendMessage);
+        inputEl.addEventListener('keydown', (ev) => {
+            if (ev.key === 'Enter' && !ev.shiftKey) {
+                ev.preventDefault();
+                sendMessage();
+            }
+        });
+
+    </script>
+</body>
+</html>
